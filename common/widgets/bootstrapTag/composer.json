@@ -1,0 +1,26 @@
+{
+  "name": "niluzok/yii2-bootstrap-tags",
+  "description": "Yii2 widget-wrapper for Bootstrap Tags widget",
+  "keywords": ["yii2", "bootstrap", "tags", "input", "widget"],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "support": {
+    "source": "https://github.com/niluzok/yii2-bootstrap-tags",
+    "issues": "https://github.com/niluzok/yii2-bootstrap-tags/issues"
+  },
+  "authors": [
+    {
+      "name": "Niluzok",
+      "homepage": "https://github.com/niluzok/"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "*",
+    "bower-asset/bootstrap-tags": "@stable"
+  },
+  "autoload": {
+      "psr-4": {
+        "niluzok\\yii2bstags\\": ""
+      }
+    }
+}

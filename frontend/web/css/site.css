@@ -1,0 +1,239 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: "\e151";
+}
+
+a.desc:after {
+    content: "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view td {
+    white-space: nowrap;
+}
+
+.grid-view .filters input,
+.grid-view .filters select {
+    min-width: 50px;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding: 15px;
+    border: none;
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
+
+.box-title{
+    color: #333;
+    font-size: 18px;
+    border-bottom:hidden;
+    padding-bottom: 5px;
+}
+
+.panel-body{
+    padding:15px 0 5px 0;
+}
+
+.panel-body h1 {
+    font-size: 18px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.post-label {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    display: block;
+    line-height: 1.42857;
+    padding: 4px;
+    transition: border 0.2s ease-in-out 0s;
+    border-radius: 0;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.post-label > img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 150px;
+    width: 100%;
+}
+
+.post-tags {
+    color: #999;
+    font-size: 12px;
+}
+
+.post-tags span {
+    margin-right: 4px;
+}
+
+.post-tags a {
+    color: #999;
+}
+
+.tags {
+    font-size: 12px;
+    margin-left: 2px;
+}
+
+.font-12 {
+    font-size: 12px;
+}
+
+body {
+    cursor:url('//www.005.tv/templets/muban/moe_style/image/cur/1.cur'),auto;
+    background-image:url(https://images6.alphacoders.com/956/956303.jpg);
+    background-attachment:fixed;
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    /*background-repeat:repeat-y;*/
+    /*background-repeat:repeat-y;*/
+    }
+div.panel{
+    background-color:rgba(52, 73, 94, 0.1);
+}
+nav:hover{
+     background-color:#080808;
+    border: hidden;
+ }
+/*nav.navbar-inverse.navbar-fixed-top.navbar :active{*/
+    /*font-size:150%;*/
+/*}*/
+title{
+    background-color:rgba(52, 73, 94, 0.1);
+}
+span{
+    background-color:rgba(52, 73, 94, 0.1);
+}
+ul.breadcrumb{
+    background-color:rgba(52, 73, 94, 0.1);
+}
+input.form-control{
+    background-color:rgba(52, 73, 94, 0.1);
+}
+textarea.form-control{
+    background-color:rgba(52, 73, 94, 0.1);
+}
+.table-striped{
+    background-color:rgba(52, 73, 94, 0.1);
+}
+tr:nth-of-type(even)
+{
+    background:rgba(52, 73, 94, 0.1);
+}
+a{
+    color: #080808;
+    text-decoration: none;
+}
+select.form-control{
+    background:rgba(52, 73, 94, 0.1);
+    color: #080808;
+}
+label.control-label{
+    color: #080808;
+}
+a.post-label{
+    background:rgba(52, 73, 94, 0.1);
+    border: hidden;
+}
